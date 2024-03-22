@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37a7d6f1a40c45a2981a6291f0d03337, type: 3}
+  m_Name: circle
+  m_EditorClassIdentifier: 
+  templateID: circle
+  templateName: circle
+  jointTexture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+  occludedJointTexture: {fileID: 10912, guid: 0000000000000000f000000000000000, type: 0}
+  occludedJointColor: {r: 0, g: 0.28058577, b: 1, a: 1}
+  skeletonTexture: {fileID: 10912, guid: 0000000000000000f000000000000000, type: 0}
+  keypoints:
+  - label: 0
+    associateToRig: 0
+    rigLabel: 0
+    color: {r: 0.36218894, g: 0.45939025, b: 0.8507105, a: 1}
+    selfOcclusionDistance: 0
+  - label: 1
+    associateToRig: 0
+    rigLabel: 0
+    color: {r: 0.9432425, g: 0.42313656, b: 0.37256283, a: 1}
+    selfOcclusionDistance: 0
+  - label: 2
+    associateToRig: 0
+    rigLabel: 0
+    color: {r: 0.16302587, g: 0.6823851, b: 0.8370671, a: 1}
+    selfOcclusionDistance: 0
+  - label: 3
+    associateToRig: 0
+    rigLabel: 0
+    color: {r: 0.58721966, g: 0.5803779, b: 0.20357373, a: 1}
+    selfOcclusionDistance: 0
+  - label: 4
+    associateToRig: 0
+    rigLabel: 0
+    color: {r: 0.24183653, g: 0.18268813, b: 0.69230044, a: 1}
+    selfOcclusionDistance: 0
+  - label: 5
+    associateToRig: 0
+    rigLabel: 0
+    color: {r: 0.35732657, g: 0.8322389, b: 0.73656994, a: 1}
+    selfOcclusionDistance: 0
+  - label: 6
+    associateToRig: 0
+    rigLabel: 0
+    color: {r: 0.6132389, g: 0.27208057, b: 0.25596693, a: 1}
+    selfOcclusionDistance: 0
+  - label: 7
+    associateToRig: 0
+    rigLabel: 0
+    color: {r: 0.8045956, g: 0.36382943, b: 0.47924337, a: 1}
+    selfOcclusionDistance: 0
+  - label: 8
+    associateToRig: 0
+    rigLabel: 0
+    color: {r: 0.1110249, g: 0.010264049, b: 0.5301399, a: 1}
+    selfOcclusionDistance: 0
+  - label: 9
+    associateToRig: 0
+    rigLabel: 0
+    color: {r: 0.46750683, g: 0.5976859, b: 0.23812945, a: 1}
+    selfOcclusionDistance: 0
+  - label: 10
+    associateToRig: 0
+    rigLabel: 0
+    color: {r: 0.71118, g: 0.7093117, b: 0.33589768, a: 1}
+    selfOcclusionDistance: 0
+  - label: 11
+    associateToRig: 0
+    rigLabel: 0
+    color: {r: 0.50290424, g: 0.087420546, b: 0.68832827, a: 1}
+    selfOcclusionDistance: 0
+  skeleton:
+  - joint1: 0
+    joint2: 1
+    color: {r: 0.21776159, g: 0.44047618, b: 0.8375615, a: 1}
+  - joint1: 1
+    joint2: 2
+    color: {r: 0.54933393, g: 0.9579008, b: 0.06650379, a: 1}
+  - joint1: 2
+    joint2: 3
+    color: {r: 0.1624993, g: 0.9871216, b: 0.62567496, a: 1}
+  - joint1: 3
+    joint2: 4
+    color: {r: 0.5339446, g: 0.9829843, b: 0.006760047, a: 1}
+  - joint1: 4
+    joint2: 5
+    color: {r: 0.525937, g: 0.19983742, b: 0.5451876, a: 1}
+  - joint1: 5
+    joint2: 6
+    color: {r: 0.74641514, g: 0.09820716, b: 0.728317, a: 1}
+  - joint1: 6
+    joint2: 7
+    color: {r: 0.7237532, g: 0.65335566, b: 0.29179925, a: 1}
+  - joint1: 7
+    joint2: 8
+    color: {r: 0.5043564, g: 0.19091494, b: 0.50809693, a: 1}
+  - joint1: 8
+    joint2: 9
+    color: {r: 0.52097064, g: 0.17218088, b: 0.14449726, a: 1}
+  - joint1: 9
+    joint2: 10
+    color: {r: 0.033198345, g: 0.12195295, b: 0.673531, a: 1}
+  - joint1: 10
+    joint2: 11
+    color: {r: 0.89039546, g: 0.552343, b: 0.42797834, a: 1}
+  - joint1: 11
+    joint2: 0
+    color: {r: 0.5104382, g: 0.16734475, b: 0.4513198, a: 1}
